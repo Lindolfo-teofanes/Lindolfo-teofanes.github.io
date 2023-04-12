@@ -4,6 +4,7 @@ body{
   background-color: #ffcbdb;
   font-family: Poppins;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
