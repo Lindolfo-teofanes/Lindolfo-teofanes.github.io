@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+  background-color: #ffcbdb;
+  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+}
+
+.tittle{
+  text-align: center;
+}
+
+.tetxo{
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.mari{
+  border-radius: 15px;
+  width: 30%;
+  margin: auto;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
+.versi{
+  font-style: italic;
+  text-align: center;
+}
+
+.final{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .tittle{
+    text-align: center;
+  }
+  
+  .tetxo{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  
+  .mari{
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .container{
+    width: 100%;
+    display: flex;
+  }
+  
+  .versi{
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .final{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+}
